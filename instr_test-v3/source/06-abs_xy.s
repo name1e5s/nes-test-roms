@@ -41,7 +41,6 @@ instrs:
 	entry $3F,"RLA abs,X"
 	entry $5F,"SRE abs,X"
 	entry $7F,"RRA abs,X"
-	entry $9C,"SYA abs,X"
 	entry $DF,"DCP abs,X"
 	entry $FF,"ISC abs,X"
 
@@ -49,7 +48,6 @@ instrs:
 	entry $3B,"RLA abs,Y"
 	entry $5B,"SRE abs,Y"
 	entry $7B,"RRA abs,Y"
-	entry $9E,"SXA abs,Y"
 	entry $BF,"LAX abs,Y"
 	entry $DB,"DCP abs,Y"
 	entry $FB,"ISC abs,Y"
@@ -130,14 +128,12 @@ correct_checksums:
 .dword $BF4BF92E
 .dword $C2207461
 .dword $F34758B1
-.dword $7DA6ABE2
 .dword $E62C1F92
 .dword $A3FD5073
 .dword $234A2B6E
 .dword $84467B6B
 .dword $CED1ADC0
 .dword $6655FFC6
-.dword $9E821698
 .dword $47579BB5
 .dword $49B176EB
 .dword $A72DC04B

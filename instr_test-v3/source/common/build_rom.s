@@ -40,6 +40,7 @@ MAPPER = n      ; Specify mapper number
 
 .ifndef CUSTOM_VECTORS
 	.segment "VECTORS"
+	.feature force_range
 		.word -1,-1,-1, nmi, reset, irq
 .endif
 
